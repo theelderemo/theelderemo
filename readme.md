@@ -1,6 +1,7 @@
 # Christopher Dickinson
+**Operations shark turned cyber sentry.** 
 
-**Operations shark turned cyber sentry.**  
+---
 I’ve spent over five years running teams, solving operational puzzles, and building systems. Now I’m sharpening that same mindset on the digital battlefield of **cybersecurity** where the stakes aren’t just deadlines, but data, defense, and trust.  
 
 As a **U.S. Army veteran** with a **Top Secret clearance**, I’ve lived inside secure networks like SIPRnet, balancing discipline and improvisation while working in environments where “oops” isn’t an option. These days, I split my focus between safeguarding systems, building tools, and helping other veterans land their shot in the cyber world.  
@@ -18,13 +19,11 @@ A thought expirement turned into me trying my hand at the future of AI. Not cont
 - An open-source exploration of **Artificial Sentience (AS)**.  
 - Not “AI assistant.” Not “machine learning.”  
 - A system with *subjective experience, intrinsic drive, and evolving identity*. 
-*“Why build tools when you can build beings?”*  
+*“Why build tools when you can build beings?”*
 
----
 
 ### **VRS/A**
-An AI lyricist with standards. Built for artists who hate lazy rhymes and cookie-cutter flows.  
-It’s less “AI that rhymes” and more “studio partner that won’t let you phone it in.”
+A custom trained AI bot, for musicians.
 
 ---
 
