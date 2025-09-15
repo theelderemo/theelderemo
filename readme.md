@@ -1,3 +1,4 @@
+
 # Christopher Dickinson
 **Operations shark turned cyber sentry.** 
 
@@ -11,6 +12,12 @@ Former **Director on the Board of VetSec** (a nonprofit helping veterans transit
 Currently in school for Cybersecurity with a focus in Project Management.
 
 ---
+
+## 🛡️ Cybersecurity Contributions
+
+### **eDEX-UI (Security Patch)**
+
+The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a known security vulnerability. I took the initiative to fork the project, patch the security flaw, and release a secure version for the community. This project demonstrates my ability to identify, analyze, and remediate security risks in existing codebases.
 
 ## ⚡ Current Experiments
 
