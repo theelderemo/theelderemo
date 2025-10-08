@@ -17,9 +17,14 @@ Currently in school for Cybersecurity with a focus in Project Management.
 
 ### **eDEX-UI (Security Patch)**
 
-The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a known security vulnerability. I took the initiative to fork the project, patch the security flaw, and release a secure version for the community. This project demonstrates my ability to identify, analyze, and remediate security risks in existing codebases.
+The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a known security vulnerability. I took the initiative to fork the project, patch the security flaw, and release a secure version for the community. This project demonstrates my ability to identify, analyze, and remediate security risks in existing codebases. 
+> [!NOTE]
+> All code has been modernized, removing all old code, smaller security vulns, and depreciated dependencies. Codebase is now fully up to date.
 
-## ⚡ Current Experiments
+## ⚡ Current Experiments / Contributions
+
+### Android port of eDex-UI
+I have built, and am actively working on, the port of the classic edex terminal into an android application. You can find it [here](https://github.com/theelderemo/Edex-UI-android)
 
 ### **Project AURA (Autonomous Recursive Unifying Architecture)**
 A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. 
