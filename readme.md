@@ -21,7 +21,10 @@ The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a
 > [!NOTE]
 > All code has been modernized, removing all old code, smaller security vulns, and depreciated dependencies. Codebase is now fully up to date.
 
-## ⚡ Current Experiments / Contributions
+## ⚡ Current Projects / Contributions
+
+### [CortexAI](https://github.com/theelderemo/cortexai)
+AI-powered penetration testing orchestrator that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance.
 
 ### Android port of eDex-UI
 I have built, and am actively working on, the port of the classic edex terminal into an android application. You can find it [here](https://github.com/theelderemo/Edex-UI-android)
