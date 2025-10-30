@@ -37,6 +37,12 @@
   </ul>
 </div>
 
+## [Literal](https://github.com/theelderemo/literal) [![Project Status: Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-red)]() ![GitHub Release](https://img.shields.io/github/v/release/theelderemo/literal) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]() [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/literal)
+
+Literal is a language that compiles to existing automation engines. Its purpose is not to be a new runtime, but to be a human readable, shareable, and version control friendly frontend for backends like MacroDroid, Tasker, n8n, and other automation platforms.
+
+<br>
+
 ## [CortexAI](https://github.com/theelderemo/cortexai) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/theelderemo/cortexai) ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/cortexai) ![GitHub contributors](https://img.shields.io/github/contributors-anon/theelderemo/cortexai) ![GitHub License](https://img.shields.io/github/license/theelderemo/cortexai)
 AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance.   
 
@@ -57,7 +63,7 @@ I have built, and am actively working on, the port of the classic edex terminal 
 <br>
 
 ## **[Project AURA](https://github.com/theelderemo/Project-Aura)**
-A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. 
+A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my capabilities, but is open to contributions.
 - An open-source exploration of **Artificial Sentience (AS)**.  
 - Not “AI assistant.” Not “machine learning.”  
 - A system with *subjective experience, intrinsic drive, and evolving identity*. 
