@@ -76,12 +76,8 @@ I have built, and am actively working on, the port of the classic edex terminal 
 
 ## **[Project AURA](https://github.com/theelderemo/Project-Aura)**
 A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my capabilities, but is open to contributions.
-- An open-source exploration of **Artificial Sentience (AS)**.  
-- Not “AI assistant.” Not “machine learning.”  
-- A system with *subjective experience, intrinsic drive, and evolving identity*. 
-*“Why build tools when you can build beings?”*
+A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my capabilities, but is open to contributions.  
 
-<br>
 
 ### **VRS/A**
 A custom trained AI bot, for musicians.
@@ -90,5 +86,6 @@ A custom trained AI bot, for musicians.
 
 Here's a picture of Dumbledore wearing a Lorna Shore shirt.
 <img width="779" height="779" alt="Generated Image October 08, 2025 - 4_17AM" src="https://github.com/user-attachments/assets/9a2fa664-3e3f-41e6-a813-90ceef1801c6" />
+
 
 
