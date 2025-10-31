@@ -63,7 +63,7 @@ AI-powered penetration testing agent that automates reconnaissance, vulnerabilit
 ## **[eDEX-UI Patch](https://github.com/theelderemo/Edex-UI-android)** ![Patched](https://img.shields.io/badge/Security_Patch-%23FF2D20.svg)
 
 The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a known security vulnerability. I took the initiative to fork the project, patch the security flaw, and release a secure version for the community. This project demonstrates my ability to identify, analyze, and remediate security risks in existing codebases. 
-> [!NOTE]
+[!NOTE]
 > All code has been modernized, removing all old code, smaller security vulns, and depreciated dependencies. Codebase is now fully up to date.
 
 <br>
