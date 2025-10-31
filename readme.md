@@ -17,6 +17,30 @@
 <p align=center> <a href="https://www.credly.com/users/chrismdickinson">
   <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Badge">
 <br>
+
+---
+
+<div id="user-content-toc">
+  <ul align="center" style="list-style: none;">
+    <summary>
+      <h1>The Collector</h1><br>
+
+<p align="center">
+  <img src="dust-collector.svg" alt="The Dust Collector" width="250"/>
+</p>
+
+<p align="center">
+  <em>A monument to the death of effort.</em>
+</p>
+
+**The Philosophy:** The dust falls endlessly, only to return to its starting position. Every cycle is a reminder that our actions are temporary, meaningless, and ultimately erased by the indifferent way of the universe.
+
+> "It's a constant, silent mockery of ambition. Every project started, every attempt to leave a 'mark'... it's just this. A temporary disturbance of the dust, which will inevitably settle back into its indifferent position."
+
+  
+---
+
+<br>
 <div id="user-content-toc">
   <ul align="center" style="list-style: none;">
     <summary>
