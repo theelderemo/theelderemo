@@ -6,17 +6,19 @@
     </summary>
   </ul>
 </div>
-<p align="center">
-  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31ezhpiqjkem4fugshj4krrs7a7m&redirect=true">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ezhpiqjkem4fugshj4krrs7a7m&cover_image=true&theme=spotify-embed&show_offline=false&background_color=0d1117&interchange=false&profanity=false&mode=dark&bar_color=53b14f&bar_color_cover=false" alt="Spotify GitHub profile">
+<div align="center">
+  <a href="https://github.com/theelderemo">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theelderemo&theme=github_dark" 
+         alt="My GitHub stats">
   </a>
-
-  <br />
 
   <a href="https://github.com/theelderemo">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theelderemo&theme=github_dark" alt="My GitHub stats">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theelderemo&theme=github_dark" 
+         alt="Repos per language">
   </a>
-</p>
+
+</div>
+
 
 <p align=center> As a U.S. Army veteran with a Top Secret clearance, I’ve lived inside secure networks like SIPRnet, balancing discipline and improvisation while working in environments where “oops” isn’t an option. These days, I split my focus between safeguarding systems, building tools, and helping other veterans land their shot in the cyber world.  
 <p align=center>Former Director on the Board of <a href="https://vetsec.org">VetSec</a> (a nonprofit helping veterans transition into cybersecurity). 
@@ -98,7 +100,13 @@ A thought expirement turned into me trying my hand at the future of AI. Not cont
 
 ---
 
-<img width="779" height="779" alt="Generated Image October 08, 2025 - 4_17AM" src="https://github.com/user-attachments/assets/9a2fa664-3e3f-41e6-a813-90ceef1801c6" />
+<div align="center">
 
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31ezhpiqjkem4fugshj4krrs7a7m&redirect=true">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31ezhpiqjkem4fugshj4krrs7a7m&cover_image=true&theme=spotify-embed&show_offline=false&background_color=0d1117&interchange=false&profanity=false&mode=dark&bar_color=53b14f&bar_color_cover=false" 
+         alt="Spotify GitHub profile">
+  </a>
+  
+</div>
 
 
