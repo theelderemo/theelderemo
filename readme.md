@@ -14,7 +14,7 @@
   <br />
 
   <a href="https://github.com/theelderemo">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theelderemo&theme=github_dark" alt="My GitHub stats">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theelderemo&theme=github_dark" alt="My GitHub stats">
   </a>
 </p>
 
