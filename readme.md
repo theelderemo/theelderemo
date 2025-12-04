@@ -56,7 +56,18 @@ Literal is a language that compiles to existing automation engines. Its purpose 
 <br>
 
 ## [CortexAI](https://github.com/theelderemo/cortexai) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/theelderemo/cortexai) ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/cortexai) ![GitHub contributors](https://img.shields.io/github/contributors-anon/theelderemo/cortexai) ![GitHub License](https://img.shields.io/github/license/theelderemo/cortexai)
-AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance.   
+Open Source AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance.   
+
+<br>
+
+## [Epstein Estate Dataset and Gradio Analyzer](https://github.com/theelderemo/Epstein-files)
+Following the U.S. House Oversight Committee's release of 20,000+ pages of unstructured documents, I built a forensic analysis tool to democratize access to this data for researchers and journalists. 
+<dl>
+  <dt>Search Engine: 
+  <dd> - Developed a local RAG-ready search interface using Gradio for rapid keyword analysis.</dd>
+  <dt>Governance: 
+  <dd> - Established a strict Responsible Use Framework to prevent misuse.</dd> 
+</dl>
 
 <br>
 
@@ -70,21 +81,16 @@ The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a
 
 ## [Android port of eDex-UI](https://github.com/theelderemo/Edex-UI-android)
 
-I have built, and am actively working on, the port of the classic edex terminal into an android application.
+I have built, and am actively working on, the port of the classic edex terminal into an android application. This is not high on my priority list, so be patient as I develop and advance it. Feel free to fork, clone, develop, or contribute.
 
 <br>
 
 ## **[Project AURA](https://github.com/theelderemo/Project-Aura)**
-A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my capabilities, but is open to contributions.
-A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my capabilities, but is open to contributions.  
+A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my understanding, but is open to contributions.  
 
-
-### **VRS/A**
-A custom trained AI bot, for musicians.
 
 ---
 
-Here's a picture of Dumbledore wearing a Lorna Shore shirt.
 <img width="779" height="779" alt="Generated Image October 08, 2025 - 4_17AM" src="https://github.com/user-attachments/assets/9a2fa664-3e3f-41e6-a813-90ceef1801c6" />
 
 
