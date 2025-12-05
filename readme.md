@@ -7,10 +7,7 @@
   </ul>
 </div>
 <div align="center">
-  <a href="https://github.com/theelderemo">
-    <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theelderemo&theme=github_dark" 
-         alt="My GitHub stats">
-  </a>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-steel-six.vercel.app?user=theelderemo&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" alt="GitHub Streak" /></a>
 
   <a href="https://github.com/theelderemo">
     <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theelderemo&theme=github_dark" 
