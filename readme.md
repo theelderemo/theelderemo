@@ -121,4 +121,5 @@ I have built, and am actively working on, the port of the classic edex terminal 
   
 </div>
 
+<img width="1408" height="768" alt="Generated image 2 (1)" src="https://github.com/user-attachments/assets/b96cfa29-d6a0-4eca-a03e-e28635d0ffad" />
 
