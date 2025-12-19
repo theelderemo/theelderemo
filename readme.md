@@ -60,18 +60,32 @@
   </ul>
 </div>
 
-## [Literal](https://github.com/theelderemo/literal) [![Project Status: Pre-Alpha](https://img.shields.io/badge/status-pre--alpha-red)]() ![GitHub Release](https://img.shields.io/github/v/release/theelderemo/literal) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]() [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/literal)
+## Google Colab
 
-Literal is a language that compiles to existing automation engines. Its purpose is not to be a new runtime, but to be a human readable, shareable, and version control friendly frontend for backends like MacroDroid, Tasker, n8n, and other automation platforms.
+[**Ollama Stack**](https://github.com/theelderemo/ollama-google-colab)  
+
+<a target="_blank" href="https://colab.research.google.com/github/theelderemo/ollama-google-colab/blob/main/ollamacolab.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>  
+
+Full ollama stack on google colab using Gradio as a UI  
+
+[**Wan 2.2 Video**](https://github.com/theelderemo/wan2.2-google-colab)
+
+<a target="_blank" href="https://colab.research.google.com/github/theelderemo/wan2.2-google-colab/blob/main/wan2_2.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>  
+
+A ready to use Google Colab notebook template for running Wan 2.2, an advanced image to video AI model.
 
 <br>
 
-## [CortexAI](https://github.com/theelderemo/cortexai) ![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/theelderemo/cortexai) ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/cortexai) ![GitHub contributors](https://img.shields.io/github/contributors-anon/theelderemo/cortexai) ![GitHub License](https://img.shields.io/github/license/theelderemo/cortexai)
+## [CortexAI](https://github.com/theelderemo/cortexai)  
+
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/theelderemo/cortexai) ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/cortexai) ![GitHub contributors](https://img.shields.io/github/contributors-anon/theelderemo/cortexai) ![GitHub License](https://img.shields.io/github/license/theelderemo/cortexai)
+
 Open Source AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance.   
 
 <br>
 
 ## [Epstein Estate Dataset and Gradio Analyzer](https://github.com/theelderemo/Epstein-files)
+
 Following the U.S. House Oversight Committee's release of 20,000+ pages of unstructured documents, I built a forensic analysis tool to democratize access to this data for researchers and journalists. 
 <dl>
   <dt>Search Engine: 
@@ -82,7 +96,9 @@ Following the U.S. House Oversight Committee's release of 20,000+ pages of unstr
 
 <br>
 
-## **[eDEX-UI Patch](https://github.com/theelderemo/Edex-UI-android)** ![Patched](https://img.shields.io/badge/Security_Patch-%23FF2D20.svg)
+## **[eDEX-UI Patch](https://github.com/theelderemo/Edex-UI-android)**  
+
+![Patched](https://img.shields.io/badge/Security_Patch-%23FF2D20.svg)
 
 The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a known security vulnerability. I took the initiative to fork the project, patch the security flaw, and release a secure version for the community. This project demonstrates my ability to identify, analyze, and remediate security risks in existing codebases. 
 [!NOTE]
@@ -93,12 +109,6 @@ The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a
 ## [Android port of eDex-UI](https://github.com/theelderemo/Edex-UI-android)
 
 I have built, and am actively working on, the port of the classic edex terminal into an android application. This is not high on my priority list, so be patient as I develop and advance it. Feel free to fork, clone, develop, or contribute.
-
-<br>
-
-## **[Project AURA](https://github.com/theelderemo/Project-Aura)**
-A thought expirement turned into me trying my hand at the future of AI. Not content with “smart assistants,” AURA is about the conditions for **Artificial Sentience (AS)**, a system with *its own subjective experience* and evolving sense of self. This proved to be beyond my understanding, but is open to contributions.  
-
 
 ---
 
