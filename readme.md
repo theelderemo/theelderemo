@@ -23,7 +23,12 @@
 
 
 <p align=center> As a U.S. Army veteran with a Top Secret clearance, I’ve lived inside secure networks like SIPRnet, balancing discipline and improvisation while working in environments where “oops” isn’t an option. These days, I split my focus between safeguarding systems, building tools, and helping other veterans land their shot in the cyber world.  
-<p align=center>Former Director on the Board of <a href="https://vetsec.org">VetSec</a> (a nonprofit helping veterans transition into cybersecurity). 
+<p align="center">My Resume:</p>
+<p align="center">
+  <a href="https://github.com/theelderemo/Resume">
+    <img src="https://img.shields.io/badge/My_Resume-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="My Resume">
+  </a>
+</p>
 <p align=center> View my certs:
 <p align=center> <a href="https://www.credly.com/users/chrismdickinson">
   <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Badge">
