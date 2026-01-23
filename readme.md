@@ -33,26 +33,6 @@
 <p align=center> <a href="https://www.credly.com/users/chrismdickinson">
   <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Badge">
 <br>
-
----
-
-<div id="user-content-toc">
-  <ul align="center" style="list-style: none;">
-    <summary>
-      <h1>The Collector</h1><br>
-
-<p align="center">
-  <img src="dust-collector.svg" alt="The Dust Collector" width="250"/>
-</p>
-
-<p align="center">
-  <em>A monument to the death of effort.</em>
-</p>
-
-**The Philosophy:** The dust falls endlessly, only to return to its starting position. Every cycle is a reminder that our actions are temporary, meaningless, and ultimately erased by the indifferent way of the universe.
-
-> "It's a constant, silent mockery of ambition. Every project started, every attempt to leave a 'mark'... it's just this. A temporary disturbance of the dust, which will inevitably settle back into its indifferent position."
-
   
 ---
 
@@ -67,6 +47,14 @@
 
 ## Google Colab
 
+[**HeartLib Script**](https://github.com/theelderemo/HeartLib-Google-Colab)
+
+<a target="_blank" href="https://colab.research.google.com/github/theelderemo/HeartLib-Google-Colab/blob/main/HeartLib.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a> 
+
+Optimized scripts for running [HeartMuLa](https://github.com/HeartMuLa/heartlib) music generation with maximum performance on NVIDIA GPUs, especially A100
+
 [**Ollama Stack**](https://github.com/theelderemo/ollama-google-colab)  
 
 <a target="_blank" href="https://colab.research.google.com/github/theelderemo/ollama-google-colab/blob/main/ollamacolab.ipynb"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>  
@@ -80,6 +68,9 @@ Full ollama stack on google colab using Gradio as a UI
 A ready to use Google Colab notebook template for running Wan 2.2, an advanced image to video AI model.
 
 <br>
+
+## [CorgiDB](https://github.com/roman-corgi/corgidb)  
+Implemented get_optimal_sql_datatypes helper function in corgidb to automate efficient SQL datatype selection for pandas DataFrames, reducing manual overhead and ensuring optimal data storage.
 
 ## [CortexAI](https://github.com/theelderemo/cortexai)  
 
@@ -110,10 +101,6 @@ The original `eDEX-UI`, a stunning sci-fi terminal emulator, was archived with a
 > All code has been modernized, removing all old code, smaller security vulns, and depreciated dependencies. Codebase is now fully up to date.
 
 <br>
-
-## [Android port of eDex-UI](https://github.com/theelderemo/Edex-UI-android)
-
-I have built, and am actively working on, the port of the classic edex terminal into an android application. This is not high on my priority list, so be patient as I develop and advance it. Feel free to fork, clone, develop, or contribute.
 
 ---
 
