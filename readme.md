@@ -59,7 +59,7 @@ Bootstrapped, solo-dev AI workstation for lyric writing and music production. Bu
 
 In roughly three months it's gone from zero to a meaningful number of daily active users, an impressive amount of total userss, and paying subscribers on the Studio Pass tier, with absolutely no advertising or marketing. 
 
-**What's under the hood:**
+**Features:**
 - **Ghostwriter** — chat-based lyric generation with session memory, multi-model A/B mode, take history, and album-context awareness
 - **Canvas** — Notion inspired editor with inline AI edits, syllable counter, rhyme heatmap, and MP3 transcription
 - **Suno Bridge** — Chrome + Firefox extensions that capture auth tokens and route lyrics directly to the Suno API with version picker (v4 → v5)
@@ -72,6 +72,15 @@ In roughly three months it's gone from zero to a meaningful number of daily acti
 > App: **[vrsa.app](https://vrsa.app)** · Studio: **[studio.vrsa.app](https://studio.vrsa.app)**
 
 <br>
+
+## [AI Audio Tools](https://github.com/theelderemo/ai-audio-tools)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Tools](https://img.shields.io/badge/tools%20listed-100%2B-blueviolet?style=flat)
+![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/ai-audio-tools)
+
+A curated list of 100+ AI-powered audio tools across 16 categories: music creation, voice cloning, stem separation, TTS, transcription, sound detection, and more. 
+
 
 ---
 
