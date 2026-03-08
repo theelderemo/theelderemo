@@ -80,7 +80,7 @@ Bootstrapped, solo-dev AI workstation for lyric writing and music production —
 |---|---|---|
 | [vrsa.app](https://vrsa.app) | React + Vite + Capacitor 8 | Live |
 | [studio.vrsa.app](https://studio.vrsa.app) | Next.js 16 + TypeScript + Docker | Live |
-| Will update link when live | Next.js + React + Zustand + WaveSurfer.js | WIP |
+| [generate.vrsa.app](https://generate.vrsa.app) | Next.js + React + Zustand + WaveSurfer.js | WIP |
 
 **VRSA v1.5 — AI Music Generation Engine:**
 
@@ -118,7 +118,7 @@ Supports **7 task types**: text to music, music to music, cover, repainting, ext
 - 107 API endpoints mapped and routed
 - Crowdin i18n workflow, Docker + docker-compose, multi-project deployment
 
-> App: **[vrsa.app](https://vrsa.app)** · Studio: **[studio.vrsa.app](https://studio.vrsa.app)** · Generate *(WIP)*: **will update generate url when frontend ui is finished.** For now, you can generate in the [main app](https://vrsa.app/song-generation)
+> App: **[vrsa.app](https://vrsa.app)** · Studio: **[studio.vrsa.app](https://studio.vrsa.app)** · Generate *(WIP)*: **[generate.vrsa.app](https://generate.vrsa.app)**
 
 <br>
 
