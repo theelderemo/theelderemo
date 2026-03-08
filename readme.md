@@ -24,8 +24,11 @@
 <p align="center">
 Army vet. Cybersecurity student. Solo builder.<br><br>
 I spent years inside classified networks — SIPRnet, compartmented systems, environments where bad configuration isn't a learning opportunity, it's an incident. That background made me obsessive about how things actually work under the hood, and impatient with software that cuts corners on security.<br><br>
-Now I channel that into building: production-grade tools I maintain myself, open-source utilities that scratch real itches, and contributions to projects I actually use. Most of what I ship lives at the intersection of AI, audio, and security tooling.
+Now I channel that into building: production-grade tools I maintain myself, open-source utilities that scratch real itches, and contributions to projects I actually use. Most of what I ship lives at the intersection of AI, audio/music, and security tooling.
 </p>
+
+<!--START_SECTION:badges-->
+<!--END_SECTION:badges-->
 
 <p align="center">
   <a href="https://github.com/theelderemo/Resume">
