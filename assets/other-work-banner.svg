@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+      .bg { fill: #0d1117; }
+      .text-main { font-family: 'Fira Code', monospace; font-size: 36px; font-weight: 700; fill: #7a0040; }
+      .text-sub { font-family: 'Fira Code', monospace; font-size: 16px; fill: #8b949e; }
+      
+      /* The inevitable passage of time */
+      .blink { animation: blink 1s step-end infinite; fill: #cc0033; }
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+      
+      /* SIPRnet nostalgia */
+      .scanline { stroke: #1e0545; stroke-width: 3; opacity: 0.3; animation: scan 8s linear infinite; }
+      @keyframes scan {
+        0% { transform: translateY(-20px); }
+        100% { transform: translateY(140px); }
+      }
+    </style>
+  </defs>
+  
+  <line x1="0" y1="0" x2="800" y2="0" class="scanline"/>
+  <line x1="0" y1="118" x2="800" y2="118" stroke="#cc0033" stroke-width="4"/>
+  
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" class="text-main">Other Work and Contributions</text>
+  <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" class="text-sub">more inevitable technical debt <tspan class="blink">_</tspan></text>
+</svg>

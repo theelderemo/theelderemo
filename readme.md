@@ -1,11 +1,10 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=0:0d1117,20:150a2e,40:2e0a5c,55:5c006e,70:7a0040,85:600010,100:420808&height=200&section=header&text=Chris%20Dickinson&desc=theelderemo&fontSize=42&fontColor=58A6FF&animation=fadeIn&fontAlignY=36&descAlignY=60&descSize=18&descColor=8b949e" />
+
 <div align="center">
-  <h1>Christopher Dickinson</h1>
-  <br>
   <img src="https://img.shields.io/badge/Cybersecurity_Student-navy">
   <img src="https://img.shields.io/badge/U.S.%20Army%20Veteran-forestgreen?style=flat&logo=army">
   <img src="https://img.shields.io/badge/Top%20Secret_Clearance-firebrick?style=flat&logo=lock&logoColor=white">
 </div>
-
 
 <div align="center">
   <a href="https://github.com/theelderemo">
@@ -22,8 +21,9 @@
 </div>
 
 <div align="center">
-  <h2>Army vet. Cybersecurity Student. Solo Builder.</h2>
-  <br>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Army+Vet.+Cybersecurity+Student.+Solo+Builder.;ML+%2B+Audio+%2B+Security;chmod+000+/impostor_syndrome" alt="Typing SVG" />
+</div>
+<div
 <p align="center">
 I spent years inside classified networks, SIPRnet, compartmented systems, environments where bad configuration isn't a learning opportunity, it's an incident. That background made me obsessive about how things actually work under the hood, and impatient with software that cuts corners on security.<br><br>
 Now I channel that into building: production-grade tools I maintain myself, open-source utilities that scratch real itches, and contributions to projects I actually use. Most of what I ship lives at the intersection of AI, audio/music, and security tooling.
@@ -53,37 +53,72 @@ Now I channel that into building: production-grade tools I maintain myself, open
 
 ---
 
-<div id="user-content-toc">
-  <ul align="center" style="list-style: none;">
-    <summary>
-      <h1>What I'm Building</h1>
-    </summary>
-  </ul>
-</div>
+<p align="center">
+  <img src="assets/projects-banner.svg" alt="Contributions & Projects" width="100%">
+</p>
+
+
 
 ## [VRS/A — Lyric + Music Workstation](https://vrsa.app)
 
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+![Modal](https://img.shields.io/badge/Modal_(H100_GPU)-8B5CF6?style=flat)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 
-Bootstrapped, solo-dev AI workstation for lyric writing and music production. Built for myself, at first, then made public and added features.
+Bootstrapped, solo-dev AI workstation for lyric writing and music production — now a **multi-app platform spanning 3 deployments, 3 separate codebases, and 9 proprietary model variants**. Grew from a personal tool to daily active users and paying subscribers with zero advertising.
 
-In roughly three months it's gone from zero to a meaningful number of daily active users, an impressive amount of total userss, and paying subscribers on the Studio Pass tier, with absolutely no advertising or marketing. 
+**Platform surfaces:**
 
-**Features:**
+| App | Stack | Status |
+|---|---|---|
+| [vrsa.app](https://vrsa.app) | React + Vite + Capacitor 8 | Live |
+| [studio.vrsa.app](https://studio.vrsa.app) | Next.js 16 + TypeScript + Docker | Live |
+| Will update link when live | Next.js + React + Zustand + WaveSurfer.js | WIP |
+
+**VRSA v1.5 — AI Music Generation Engine:**
+
+Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 GPUs, all served from a persistent weight volume with async spawn/poll architecture:
+
+| VRSA Name | Type | Description |
+|---|---|---|
+| vrsa v1.5 | DiT (default) | Turbo — balanced speed + quality |
+| vrsa v1.5-stream | DiT | Continuous generation mode |
+| vrsa v1.5-craft | DiT | SFT — higher fidelity |
+| vrsa v1.5-core | DiT | Base model |
+| vrsa v1.5-shift3 / shift1 | DiT | Flow-shift variants |
+| vrsa-pulse-nano | LM 0.6B | Fast token-level generation |
+| vrsa-pulse | LM 1.7B | Balanced LM |
+| vrsa-pulse-pro | LM 4B (default) | Full reasoning + CoT metadata |
+
+Supports **7 task types**: text to music, music to music, cover, repainting, extracting, section by section build, and complete. Output formats: mp3 · flac · wav · wav32 · opus · aac. Full generation parameter surface: BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, latent shift/rescale, batch size up to 8.
+
+**30+ page modules in vrsa.app:**
 - **Ghostwriter** — chat-based lyric generation with session memory, multi-model A/B mode, take history, and album-context awareness
-- **Canvas** — Notion inspired editor with inline AI edits, syllable counter, rhyme heatmap, and MP3 transcription
-- **Suno Bridge** — Chrome + Firefox extensions that capture auth tokens and route lyrics directly to the Suno API with version picker (v4 → v5)
-- **Audio Analyzer** — BPM + key/scale detection via a custom VM audio engine running Essentia.js WASM
+- **Canvas** — Notion-inspired editor with inline AI edits, syllable counter, rhyme heatmap, and MP3 transcription
+- **Suno Bridge** — Chrome + Firefox extensions that capture auth tokens and route lyrics directly to the Suno with version picker (v4 → v5)
+- **Audio Analyzer** — BPM + key/scale detection via custom VM audio engine running Essentia.js WASM
 - **Album Art** — Flux 1.1 Pro, Flux 2, and Sora via Azure OpenAI deployments
 - **Multi-model routing** — GPT, Claude, DeepSeek, Gemini, Grok, Kimi K2, MiniMax, Mistral across OpenAI, Bedrock, OpenRouter, and Google APIs
-- **Rights Management** — proof-of-creation certificate generator (printable PDF)
+- **Rights Management** — proof-of-creation PDF certificate generator
+- **MyMusic / Projects / AlbumWorkspace** — full library, project, and album management
+- **AdminPanel** — platform administration, really just a view only style cms for me to see stats
+- **StudioPass** — subscription and billing management
 - **Mobile** — Capacitor 8 Android build + full PWA support
 
-> App: **[vrsa.app](https://vrsa.app)** · Studio: **[studio.vrsa.app](https://studio.vrsa.app)**
+**Infrastructure:**
+- Cross-subdomain auth — cookies scoped to `.vrsa.app`, shared across all three apps
+- Modal backend: async generation pipeline, H100 GPU, 600s timeout, persistent weights volume
+- 107 API endpoints mapped and routed
+- Crowdin i18n workflow, Docker + docker-compose, multi-project deployment
+
+> App: **[vrsa.app](https://vrsa.app)** · Studio: **[studio.vrsa.app](https://studio.vrsa.app)** · Generate *(WIP)*: **will update generate url when frontend ui is finished.** For now, you can generate in the [main app](https://vrsa.app/song-generation)
 
 <br>
 
@@ -98,13 +133,9 @@ A curated list of 100+ AI-powered audio tools across 16 categories: music creati
 
 ---
 
-<div id="user-content-toc">
-  <ul align="center" style="list-style: none;">
-    <summary>
-      <h1>Other Work</h1>
-    </summary>
-  </ul>
-</div>
+<p align="center">
+  <img src="assets/other-work-banner.svg" alt="Other Work & Contributions" width="100%">
+</p>
 
 ## Google Colab
 
@@ -147,7 +178,7 @@ Plug-and-play Colab notebook for Wan 2.2 — an advanced image-to-video model �
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/theelderemo/cortexai)
 ![GitHub License](https://img.shields.io/github/license/theelderemo/cortexai)
 
-Open-source AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance.
+This was a proof of concept project for myself. Open-source AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance. Fair warning, it's a monorepo.
 
 <br>
 
@@ -192,9 +223,10 @@ Contributed a `get_optimal_sql_datatypes` helper function to automate efficient 
 
 ## [Simple Chat](https://github.com/theelderemo/simple-chat-ui)
 
-Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure, Gemini) - Deno-powered server with browser-based UI
+Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure, Gemini) - Deno-powered server with browser-based UI  
 
----
+---  
+<br>
 
 <div align="center">
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31ezhpiqjkem4fugshj4krrs7a7m&redirect=true">
@@ -203,4 +235,11 @@ Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure,
   </a>
 </div>
 
-<img width="1408" height="768" alt="Generated image 2 (1)" src="https://github.com/user-attachments/assets/b96cfa29-d6a0-4eca-a03e-e28635d0ffad" />
+<p align="center">
+  <img src="assets/dust.svg" alt="dust" width="100%">
+</p>
+
+<!-- 
+  49 66 20 79 6f 75 27 72 65 20 72 65 61 64 69 6e 67 20 74 68 69 73 2c 
+  79 6f 75 20 61 6c 72 65 61 64 79 20 6b 6e 6f 77 20 77 68 61 74 20 69 74 20 73 61 79 73 2e
+-->

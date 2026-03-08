@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+      .bg { fill: #0d1117; }
+      .text-main { font-family: 'Fira Code', monospace; font-size: 36px; font-weight: 700; fill: #58A6FF; }
+      .text-sub { font-family: 'Fira Code', monospace; font-size: 16px; fill: #8b949e; }
+      
+            .glitch { animation: glitch 5s infinite alternate; }
+      @keyframes glitch {
+        0%, 95% { transform: translate(0, 0); opacity: 1; text-shadow: none; }
+        96% { transform: translate(-2px, 1px); opacity: 0.8; text-shadow: 2px 0 #cc0033, -2px 0 #4a008f; }
+        98% { transform: translate(2px, -1px); opacity: 0.9; text-shadow: -2px 0 #cc0033, 2px 0 #4a008f; }
+        100% { transform: translate(0, 0); opacity: 1; text-shadow: none; }
+      }
+      
+      .pulse { animation: pulse 4s ease-in-out infinite; }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+  
+  <line x1="0" y1="118" x2="800" y2="118" stroke="#4a008f" stroke-width="4"/>
+  
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" class="text-main glitch">Projects</text>
+  <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" class="text-sub pulse">things I built to quiet the void</text>
+</svg>
