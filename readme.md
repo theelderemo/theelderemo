@@ -70,43 +70,43 @@ graph TB
     Web & PWA & Android --> A
 
     subgraph APPS ["Three Deployments"]
-        A["<b>vrsa.app</b>\nReact 19 · Vite · Capacitor 8\n32 routes · 50 components · 9 hooks\nGhostwriter · Canvas · Audio Analyzer\nSuno Bridge · Album Art · Rights Mgmt"]
+        A["<b>vrsa.app</b> React · Vite · Capacitor · 32 routes · 50 components · 9 hooks · Ghostwriter · Canvas · Audio Analyzer · Suno Bridge · Album Art · Rights Mgmt"]
 
-        B["<b>studio.vrsa.app</b>\nNext.js 15 · TypeScript · Tone.js\nBrowser DAW — 16 tracks · 64 clips\nPiano Roll · Drum Sequencer · Waveform Editor\n1,300 lines of synth presets · MIDI I/O"]
+        B["<b>studio.vrsa.app</b> Next.js · TypeScript · Tone.js · Browser DAW — 16 tracks · 64 clips · Piano Roll · Drum Sequencer · Waveform Editor · 1,300 lines of synth presets · MIDI I/O"]
 
-        C["<b>generate.vrsa.app</b>\nNext.js 16 · TypeScript · Zustand\n11 pages · 8 stores · ~120 components\n7 gen modes · AI Radio · AI DJ\nLoRA Training · WaveSurfer.js"]
+        C["<b>generate.vrsa.app</b> Next.js · TypeScript · Zustand · 11 pages · 8 stores · ~120 components · 7 gen modes · AI Radio · AI DJ · LoRA Training · WaveSurfer.js"]
     end
 
     Web --> B & C
 
     subgraph AUTH ["Shared Auth Layer"]
-        D[("Supabase\n.vrsa.app cookies\nRLS · Edge Functions\nRPCs · Storage")]
+        D[("Supabase · .vrsa.app cookies · RLS · Edge Functions · RPCs · Storage")]
     end
 
     A & B & C --> D
 
     subgraph GPU ["Modal Backend — H100 GPU"]
-        E["Async Spawn/Poll · 600s Timeout\nPersistent Weight Volume"]
-        E --> F["<b>6 DiT Models</b>\nv1.5 · v1.5-stream · v1.5-craft\nv1.5-core · v1.5-shift3 · v1.5-shift1"]
-        E --> G["<b>3 LM Models</b>\npulse-nano 0.6B · pulse 1.7B\npulse-pro 4B"]
+        E["Async Spawn/Poll · 600s Timeout · Persistent Weight Volume"]
+        E --> F["<b>6 DiT Models</b> v1.5 · v1.5-stream · v1.5-craft · v1.5-core · v1.5-shift3 · v1.5-shift1"]
+        E --> G["<b>3 LM Models</b> pulse-nano 0.6B · pulse 1.7B · pulse-pro 4B"]
     end
 
     D --> E
 
     subgraph LLM ["Multi-Provider LLM Routing"]
-        H["GPT · Claude · DeepSeek · Gemini\nGrok · Kimi K2 · MiniMax · Mistral"]
+        H["GPT · Claude · DeepSeek · Gemini · Grok · Kimi K2 · MiniMax · Mistral"]
     end
 
     A --> H
 
     subgraph MEDIA ["Media Generation"]
-        I["Flux 1.1 Pro · Flux 2\nSora via Azure OpenAI"]
+        I["Flux 1.1 Pro · Flux 2 · Sora via Azure OpenAI"]
     end
 
     A --> I
 
     subgraph INFRA ["Infrastructure"]
-        J["107 API Endpoints · Vercel · Docker\nSentry · Honeybadger · Amplitude\nIntercom · Cloudflare Turnstile\nFingerprintJS · Crowdin i18n"]
+        J["107 API Endpoints · Vercel · Docker · Sentry · Honeybadger · Amplitude · Intercom · Cloudflare Turnstile · FingerprintJS · Crowdin i18n"]
     end
 
     style USER fill:transparent,stroke:#58A6FF,stroke-width:2px,color:#58A6FF
