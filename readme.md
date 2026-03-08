@@ -21,11 +21,19 @@
   </a>
 </div>
 
+<div align="center">
+  <h2>Army vet. Cybersecurity Student. Solo Builder.</h2>
+  <br>
 <p align="center">
-Army vet. Cybersecurity student. Solo builder.<br><br>
-I spent years inside classified networks — SIPRnet, compartmented systems, environments where bad configuration isn't a learning opportunity, it's an incident. That background made me obsessive about how things actually work under the hood, and impatient with software that cuts corners on security.<br><br>
+I spent years inside classified networks, SIPRnet, compartmented systems, environments where bad configuration isn't a learning opportunity, it's an incident. That background made me obsessive about how things actually work under the hood, and impatient with software that cuts corners on security.<br><br>
 Now I channel that into building: production-grade tools I maintain myself, open-source utilities that scratch real itches, and contributions to projects I actually use. Most of what I ship lives at the intersection of AI, audio/music, and security tooling.
 </p>
+
+<div align="center">
+  <a href="https://www.credly.com/users/chrismdickinson">
+    <img src="https://img.shields.io/badge/Credly_Certs-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Badge">
+  </a>
+</div>
 
 <!--START_SECTION:badges-->
 <a href="https://www.credly.com/badges/da05cb1e-13b8-4e2a-b983-200a09dd5dd6" title="Google Cybersecurity Professional Certificate V2"><img src="https://images.credly.com/size/80x80/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="Google Cybersecurity Professional Certificate V2" width="80" height="80"></a>
@@ -42,16 +50,6 @@ Now I channel that into building: production-grade tools I maintain myself, open
 <a href="https://www.credly.com/badges/6bef95d0-e030-4ded-8cec-205c91f781ad" title="Cybersecurity Essentials"><img src="https://images.credly.com/size/80x80/images/c1426860-8205-4220-a0d5-5e6d4f07db17/blob" alt="Cybersecurity Essentials" width="80" height="80"></a>
 <a href="https://www.credly.com/badges/b15b4041-c7ad-4f8f-84fa-567db7e07b38" title="IBM Cybersecurity Analyst Assessment"><img src="https://images.credly.com/size/80x80/images/3870a682-efd0-4a47-851c-287ba4397677/blob" alt="IBM Cybersecurity Analyst Assessment" width="80" height="80"></a>
 <!--END_SECTION:badges-->
-
-<p align="center">
-  <a href="https://github.com/theelderemo/Resume">
-    <img src="https://img.shields.io/badge/My_Resume-brightgreen?style=for-the-badge&logo=github&logoColor=white" alt="My Resume">
-  </a>
-  &nbsp;
-  <a href="https://www.credly.com/users/chrismdickinson">
-    <img src="https://img.shields.io/badge/Credly_Certs-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Badge">
-  </a>
-</p>
 
 ---
 
