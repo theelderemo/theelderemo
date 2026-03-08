@@ -29,28 +29,6 @@ I spent years inside classified networks, SIPRnet, compartmented systems, enviro
 Now I channel that into building: production-grade tools I maintain myself, open-source utilities that scratch real itches, and contributions to projects I actually use. Most of what I ship lives at the intersection of AI, audio/music, and security tooling.
 </p>
 
-<div align="center">
-  <a href="https://www.credly.com/users/chrismdickinson">
-    <img src="https://img.shields.io/badge/Credly_Certs-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Badge">
-  </a>
-</div>
-
-<!--START_SECTION:badges-->
-<a href="https://www.credly.com/badges/da05cb1e-13b8-4e2a-b983-200a09dd5dd6" title="Google Cybersecurity Professional Certificate V2"><img src="https://images.credly.com/size/80x80/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="Google Cybersecurity Professional Certificate V2" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/e7e90b67-7c5f-4531-8515-c38ff1f7b4e9" title="Google Project Management Professional Certificate"><img src="https://images.credly.com/size/80x80/images/51dff787-71ae-4d9d-9ca7-ef9342914d75/GCC_badge_PGM_1000x1000.png" alt="Google Project Management Professional Certificate" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/21b90465-9cbb-48dd-a2fd-f4427bfbdf9c" title="Introduction to Cybersecurity"><img src="https://images.credly.com/size/80x80/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Introduction to Cybersecurity" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/2ddd8243-42ba-45e7-992a-e09a5fcd9333" title="LFC108: Cybersecurity Essentials"><img src="https://images.credly.com/size/80x80/images/e79f9317-b3f7-4b57-a859-f24d5f25fe36/blob" alt="LFC108: Cybersecurity Essentials" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/db11d6a9-5a71-4fac-9ae6-2285f4690838" title="Networking Basics"><img src="https://images.credly.com/size/80x80/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" alt="Networking Basics" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/321f3b1b-3aa4-46aa-94b5-1308746afee9" title="Network Addressing and Basic Troubleshooting"><img src="https://images.credly.com/size/80x80/images/49c099bd-8542-4f48-8c03-f21799dcaf51/image.png" alt="Network Addressing and Basic Troubleshooting" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/114b088c-90db-4d7d-8aaf-2f3d6f020a4f" title="Introduction to Cybersecurity Tools and Cyberattacks V3"><img src="https://images.credly.com/size/80x80/images/4ccd9157-c68a-4797-b23c-506601198991/blob" alt="Introduction to Cybersecurity Tools and Cyberattacks V3" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/f01e68f8-dcf3-407f-80a7-ad81424efaf0" title="Cybersecurity Roles, Processes & Operating System Security"><img src="https://images.credly.com/size/80x80/images/c617d37c-9c45-4617-aabf-e11954e188ec/blob" alt="Cybersecurity Roles, Processes & Operating System Security" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/830e0e75-ba79-41f2-bd40-aef61e3805f8" title="Project Management Essentials"><img src="https://images.credly.com/size/80x80/images/4d7038ef-658b-4ef8-8627-e0af45963c7e/image.png" alt="Project Management Essentials" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/b0e33980-7b53-4c28-ab9c-a7c2931eaf60" title="Cyber Threat Management"><img src="https://images.credly.com/size/80x80/images/5d5ac32b-d239-42b8-9665-8a921dc3ab47/image.png" alt="Cyber Threat Management" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/c3cacfb4-a6c9-42b9-ac33-0c08d0fb8364" title="Meta Data Analyst Professional Certificate"><img src="https://images.credly.com/size/80x80/images/4dd82f2c-e7eb-4b64-bb24-f4351f596220/image.png" alt="Meta Data Analyst Professional Certificate" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/6bef95d0-e030-4ded-8cec-205c91f781ad" title="Cybersecurity Essentials"><img src="https://images.credly.com/size/80x80/images/c1426860-8205-4220-a0d5-5e6d4f07db17/blob" alt="Cybersecurity Essentials" width="80" height="80"></a>
-<a href="https://www.credly.com/badges/b15b4041-c7ad-4f8f-84fa-567db7e07b38" title="IBM Cybersecurity Analyst Assessment"><img src="https://images.credly.com/size/80x80/images/3870a682-efd0-4a47-851c-287ba4397677/blob" alt="IBM Cybersecurity Analyst Assessment" width="80" height="80"></a>
-<!--END_SECTION:badges-->
-
 ---
 
 <p align="center">
@@ -225,7 +203,34 @@ Contributed a `get_optimal_sql_datatypes` helper function to automate efficient 
 
 Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure, Gemini) - Deno-powered server with browser-based UI  
 
----  
+<details>
+<summary><h2>Certifications</h2></summary>
+
+<div align="center">
+  <a href="https://www.credly.com/users/chrismdickinson">
+    <img src="https://img.shields.io/badge/Credly_Profile-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly Profile">
+  </a>
+</div>
+<br>
+
+<!--START_SECTION:badges-->
+<a href="https://www.credly.com/badges/da05cb1e-13b8-4e2a-b983-200a09dd5dd6" title="Google Cybersecurity Professional Certificate V2"><img src="https://images.credly.com/size/80x80/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="Google Cybersecurity Professional Certificate V2" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/e7e90b67-7c5f-4531-8515-c38ff1f7b4e9" title="Google Project Management Professional Certificate"><img src="https://images.credly.com/size/80x80/images/51dff787-71ae-4d9d-9ca7-ef9342914d75/GCC_badge_PGM_1000x1000.png" alt="Google Project Management Professional Certificate" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/21b90465-9cbb-48dd-a2fd-f4427bfbdf9c" title="Introduction to Cybersecurity"><img src="https://images.credly.com/size/80x80/images/af8c6b4e-fc31-47c4-8dcb-eb7a2065dc5b/I2CS__1_.png" alt="Introduction to Cybersecurity" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/2ddd8243-42ba-45e7-992a-e09a5fcd9333" title="LFC108: Cybersecurity Essentials"><img src="https://images.credly.com/size/80x80/images/e79f9317-b3f7-4b57-a859-f24d5f25fe36/blob" alt="LFC108: Cybersecurity Essentials" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/db11d6a9-5a71-4fac-9ae6-2285f4690838" title="Networking Basics"><img src="https://images.credly.com/size/80x80/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" alt="Networking Basics" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/321f3b1b-3aa4-46aa-94b5-1308746afee9" title="Network Addressing and Basic Troubleshooting"><img src="https://images.credly.com/size/80x80/images/49c099bd-8542-4f48-8c03-f21799dcaf51/image.png" alt="Network Addressing and Basic Troubleshooting" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/114b088c-90db-4d7d-8aaf-2f3d6f020a4f" title="Introduction to Cybersecurity Tools and Cyberattacks V3"><img src="https://images.credly.com/size/80x80/images/4ccd9157-c68a-4797-b23c-506601198991/blob" alt="Introduction to Cybersecurity Tools and Cyberattacks V3" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/f01e68f8-dcf3-407f-80a7-ad81424efaf0" title="Cybersecurity Roles, Processes & Operating System Security"><img src="https://images.credly.com/size/80x80/images/c617d37c-9c45-4617-aabf-e11954e188ec/blob" alt="Cybersecurity Roles, Processes & Operating System Security" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/830e0e75-ba79-41f2-bd40-aef61e3805f8" title="Project Management Essentials"><img src="https://images.credly.com/size/80x80/images/4d7038ef-658b-4ef8-8627-e0af45963c7e/image.png" alt="Project Management Essentials" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/b0e33980-7b53-4c28-ab9c-a7c2931eaf60" title="Cyber Threat Management"><img src="https://images.credly.com/size/80x80/images/5d5ac32b-d239-42b8-9665-8a921dc3ab47/image.png" alt="Cyber Threat Management" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/c3cacfb4-a6c9-42b9-ac33-0c08d0fb8364" title="Meta Data Analyst Professional Certificate"><img src="https://images.credly.com/size/80x80/images/4dd82f2c-e7eb-4b64-bb24-f4351f596220/image.png" alt="Meta Data Analyst Professional Certificate" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/6bef95d0-e030-4ded-8cec-205c91f781ad" title="Cybersecurity Essentials"><img src="https://images.credly.com/size/80x80/images/c1426860-8205-4220-a0d5-5e6d4f07db17/blob" alt="Cybersecurity Essentials" width="80" height="80"></a>
+<a href="https://www.credly.com/badges/b15b4041-c7ad-4f8f-84fa-567db7e07b38" title="IBM Cybersecurity Analyst Assessment"><img src="https://images.credly.com/size/80x80/images/3870a682-efd0-4a47-851c-287ba4397677/blob" alt="IBM Cybersecurity Analyst Assessment" width="80" height="80"></a>
+<!--END_SECTION:badges-->
+
+</details>
+
 <br>
 
 <div align="center">
