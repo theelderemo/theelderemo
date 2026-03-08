@@ -29,8 +29,6 @@ I spent years inside classified networks, SIPRnet, compartmented systems, enviro
 Now I channel that into building: production-grade tools I maintain myself, open-source utilities that scratch real itches, and contributions to projects I actually use. Most of what I ship lives at the intersection of AI, audio/music, and security tooling.
 </p>
 
----
-
 <p align="center">
   <img src="assets/projects-banner.svg" alt="Contributions & Projects" width="100%">
 </p>
@@ -42,20 +40,14 @@ Now I channel that into building: production-grade tools I maintain myself, open
   </a>
 </p>
 
-![React](https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat&logo=python&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![Modal](https://img.shields.io/badge/Modal_(H100_GPU)-8B5CF6?style=flat)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat&logo=pwa&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
-
 Bootstrapped, solo-dev AI workstation for lyric writing and music production — now a **multi-app platform spanning 3 deployments, 3 separate codebases, and 9 proprietary model variants**. Grew from a personal tool to daily active users and paying subscribers with zero advertising.
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24">
+  <path d="M0 12h450 l5 -5 l10 14 l10 -18 l10 14 l5 -5 h450" stroke="#8B5CF6" stroke-width="1.2" fill="none" stroke-linejoin="round"/>
+  <line x1="0" y1="12" x2="445" y2="12" stroke="#30363D" stroke-width="1"/>
+  <line x1="555" y1="12" x2="1000" y2="12" stroke="#30363D" stroke-width="1"/>
+</svg>
 
-**Platform surfaces:**
+#### **Platform surfaces:**
 
 | App | Stack | Status |
 |---|---|---|
@@ -128,9 +120,15 @@ graph TB
 
 </details>  
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 20">
+  <path d="M435 10h15 M460 10h5 M475 10h25 M510 10h5 M525 10h15 M550 10h5" stroke="#58A6FF" stroke-width="1.5"/>
+</svg>
 
-**VRSA v1.5 — AI Music Generation Engine:**
-
+#### **VRSA v1.5 — AI Music Generation Engine:**
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24">
+  <path d="M0 12h470 M530 12h470" stroke="#30363D" stroke-width="1"/>
+  <path d="M480 8v8 M490 4v16 M500 10v4 M510 6v12 M520 8v8" stroke="#8b949e" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
 Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 GPUs, all served from a persistent weight volume with async spawn/poll architecture:
 
 | VRSA Name | Type | Description |
@@ -144,28 +142,48 @@ Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 G
 | vrsa-pulse | LM 1.7B | Balanced LM |
 | vrsa-pulse-pro | LM 4B (default) | Full reasoning + CoT metadata |
 
-Supports **7 task types**: text to music, music to music, cover, repainting, extracting, section by section build, and complete. Output formats: mp3 · flac · wav · wav32 · opus · aac. Full generation parameter surface: BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, latent shift/rescale, batch size up to 8.
+#### **7 task types:**
 
-**30+ page modules in vrsa.app:**
-- **Ghostwriter** — chat-based lyric generation with session memory, multi-model A/B mode, take history, and album-context awareness
-- **Canvas** — Notion-inspired editor with inline AI edits, syllable counter, rhyme heatmap, and MP3 transcription
-- **Suno Bridge** — Chrome + Firefox extensions that capture auth tokens and route lyrics directly to the Suno with version picker (v4 → v5)
-- **Audio Analyzer** — BPM + key/scale detection via custom VM audio engine running Essentia.js WASM
-- **Album Art** — Flux 1.1 Pro, Flux 2, and Sora via Azure OpenAI deployments
-- **Multi-model routing** — GPT, Claude, DeepSeek, Gemini, Grok, Kimi K2, MiniMax, Mistral across OpenAI, Bedrock, OpenRouter, and Google APIs
-- **Rights Management** — proof-of-creation PDF certificate generator
-- **MyMusic / Projects / AlbumWorkspace** — full library, project, and album management
-- **AdminPanel** — platform administration, really just a view only style cms for me to see stats
-- **StudioPass** — subscription and billing management
-- **Mobile** — Capacitor 8 Android build + full PWA support
+| | | | | | | |
+|---|---|---|---|---|---|---|
+| Text to Music | Music to Music | Cover | Repainting | Extracting | Section by Section Build | Complete |
 
-**Infrastructure:**
-- Cross-subdomain auth — cookies scoped to `.vrsa.app`, shared across all three apps
-- Modal backend: async generation pipeline, H100 GPU, 600s timeout, persistent weights volume
-- 107 API endpoints mapped and routed
-- Crowdin i18n workflow, Docker + docker-compose, multi-project deployment
+**Output formats:** mp3 · flac · wav · wav32 · opus · aac
+**Generation surface:** BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, latent shift/rescale, batch size up to 8
+
+#### **30+ page modules in vrsa.app:**
+
+| Module | Description |
+|---|---|
+| **Ghostwriter** | Chat-based lyric generation with session memory, multi-model A/B mode, take history, and album-context awareness |
+| **Canvas** | Notion-inspired editor with inline AI edits, syllable counter, rhyme heatmap, and MP3 transcription |
+| **Suno Bridge** | Chrome + Firefox extensions that capture auth tokens and route lyrics directly to the Suno with version picker (v4 → v5) |
+| **Audio Analyzer** | BPM + key/scale detection via custom VM audio engine running Essentia.js WASM |
+| **Album Art** | Flux 1.1 Pro, Flux 2, and Sora via Azure OpenAI deployments |
+| **Multi-model routing** | GPT, Claude, DeepSeek, Gemini, Grok, Kimi K2, MiniMax, Mistral across OpenAI, Bedrock, OpenRouter, and Google APIs |
+| **Rights Management** | Proof-of-creation PDF certificate generator |
+| **MyMusic / Projects / AlbumWorkspace** | Full library, project, and album management |
+| **AdminPanel** | Platform administration, really just a view only style cms for me to see stats |
+| **StudioPass** | Subscription and billing management |
+| **Mobile** | Capacitor 8 Android build + full PWA support |
+
+#### **Infrastructure:**
+
+| | |
+|---|---|
+| **Auth** | Cross-subdomain cookies scoped to `.vrsa.app`, shared across all three apps |
+| **Compute** | Modal async generation pipeline, H100 GPU, 600s timeout, persistent weights volume |
+| **API** | 107 endpoints mapped and routed |
+| **DevOps** | Crowdin i18n workflow, Docker + docker-compose, multi-project deployment |
 
 > App: **[vrsa.app](https://vrsa.app)** · Studio: **[studio.vrsa.app](https://studio.vrsa.app)** · Generate *(WIP)*: **[generate.vrsa.app](https://generate.vrsa.app)**
+
+<br>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24">
+  <path d="M0 12h470 M530 12h470" stroke="#30363D" stroke-width="1"/>
+  <path d="M480 8v8 M490 4v16 M500 10v4 M510 6v12 M520 8v8" stroke="#8b949e" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
 
 <br>
 
@@ -175,22 +193,19 @@ Supports **7 task types**: text to music, music to music, cover, repainting, ext
   </a>
 </p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Tools](https://img.shields.io/badge/tools%20listed-100%2B-blueviolet?style=flat)
-![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/ai-audio-tools)
-
 A curated list of 100+ AI-powered audio tools across 16 categories: music creation, voice cloning, stem separation, TTS, transcription, sound detection, and more. 
-
-
----
 
 <p align="center">
   <img src="assets/other-work-banner.svg" alt="Other Work & Contributions" width="100%">
 </p>
 
+<br>
+
 <p align="center">
     <img src="assets/colab-banner.svg" alt="Colab Scripts" width="100%">
 </p>
+
+<br>
 
 **[HeartLib Script](https://github.com/theelderemo/HeartLib-Google-Colab)**
 
@@ -200,7 +215,11 @@ A curated list of 100+ AI-powered audio tools across 16 categories: music creati
 
 Optimized scripts for running [HeartMuLa](https://github.com/HeartMuLa/heartlib) music generation with maximum performance on NVIDIA GPUs, especially A100.
 
----
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 20">
+  <path d="M0 10h475 M525 10h475" stroke="#30363D" stroke-width="1"/>
+  <path d="M485 5v10h5 M515 5v10h-5" stroke="#58A6FF" stroke-width="1.5" fill="none"/>
+  <rect x="495" y="8" width="10" height="4" fill="#6B7280"/>
+</svg>
 
 **[Ollama Stack](https://github.com/theelderemo/ollama-google-colab)**
 
@@ -210,7 +229,12 @@ Optimized scripts for running [HeartMuLa](https://github.com/HeartMuLa/heartlib)
 
 Full Ollama stack running on Google Colab with Gradio as a UI — spin up a local LLM in your browser with zero local setup.
 
----
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 20">
+  <path d="M0 10h475 M525 10h475" stroke="#30363D" stroke-width="1"/>
+  <path d="M485 5v10h5 M515 5v10h-5" stroke="#58A6FF" stroke-width="1.5" fill="none"/>
+  <rect x="495" y="8" width="10" height="4" fill="#6B7280"/>
+</svg>
 
 **[Wan 2.2 Video](https://github.com/theelderemo/wan2.2-google-colab)**
 
@@ -218,7 +242,7 @@ Full Ollama stack running on Google Colab with Gradio as a UI — spin up a loca
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-![GitHub Repo stars](https://img.shields.io/github/stars/theelderemo/wan2.2-google-colab)
+<br>
 
 Plug-and-play Colab notebook for Wan 2.2 — an advanced image-to-video model — stripped down to just work.
 
@@ -229,11 +253,6 @@ Plug-and-play Colab notebook for Wan 2.2 — an advanced image-to-video model �
     <img src="assets/cortexai-banner.svg" alt="CortexAI" width="100%">
   </a>
 </p>
-
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/theelderemo/cortexai)
-![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/cortexai)
-![GitHub contributors](https://img.shields.io/github/contributors-anon/theelderemo/cortexai)
-![GitHub License](https://img.shields.io/github/license/theelderemo/cortexai)
 
 This was a proof of concept project for myself. Open-source AI-powered penetration testing agent that automates reconnaissance, vulnerability discovery, and analysis. Executes authorized security tests using installed tools, maintains immutable audit trails, and delivers findings with OWASP mapping and remediation guidance. Fair warning, it's a monorepo.
 
@@ -272,7 +291,6 @@ When the U.S. House Oversight Committee released 20,000+ pages of unstructured d
   </a>
 </p>
 
-![Patched](https://img.shields.io/badge/Security_Patch-%23FF2D20.svg)  ![GitHub Repo stars](https://img.shields.io/github/stars/theelderemo/eDEX-UI-security-patched)
 
 The original `eDEX-UI` — a well-known sci-fi terminal emulator — was archived with an unresolved security vulnerability. I forked it, patched the flaw, modernized the codebase, removed all deprecated dependencies, and cut a clean release. 
 
@@ -298,8 +316,10 @@ Contributed a helper function to automate efficient SQL datatype selection for p
 
 Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure, Gemini) - Deno-powered server with browser-based UI  
 
+<br>
+
 <details>
-<summary><h2>Certifications</h2></summary>
+<summary>Certifications</summary>
 
 <div align="center">
   <a href="https://www.credly.com/users/chrismdickinson">
@@ -334,6 +354,13 @@ Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure,
          alt="Spotify GitHub profile">
   </a>
 </div>
+
+<br>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24">
+  <path d="M0 12h480 M520 12h480" stroke="#30363D" stroke-width="1"/>
+  <path d="M488 8l5 4-5 4 M498 16h8" stroke="#58A6FF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 <p align="center">
   <img src="assets/dust.svg" alt="dust" width="100%">
