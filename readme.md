@@ -36,8 +36,11 @@ Now I channel that into building: production-grade tools I maintain myself, open
 </p>
 
 
-
-## [VRS/A — Lyric + Music Workstation](https://vrsa.app)
+<p align="center">
+  <a href="https://vrsa.app">
+    <img src="assets/vrsa-banner.svg" alt="VRSA" width="100%">
+  </a>
+</p>
 
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=next.js&logoColor=white)
@@ -59,6 +62,72 @@ Bootstrapped, solo-dev AI workstation for lyric writing and music production —
 | [vrsa.app](https://vrsa.app) | React + Vite + Capacitor 8 | Live |
 | [studio.vrsa.app](https://studio.vrsa.app) | Next.js 16 + TypeScript + Docker | Live |
 | [generate.vrsa.app](https://generate.vrsa.app) | Next.js + React + Zustand + WaveSurfer.js | WIP |
+
+<details>
+<summary>Platform Architecture</summary>
+
+```mermaid
+graph TB
+    subgraph USER [" "]
+        direction LR
+        Web["🌐 Web"]
+        PWA["📱 PWA"]
+        Android["🤖 Android"]
+    end
+
+    Web & PWA & Android --> A
+
+    subgraph APPS ["Three Deployments"]
+        A["<b>vrsa.app</b>\nReact 19 · Vite · Capacitor 8\n32 routes · 50 components · 9 hooks\nGhostwriter · Canvas · Audio Analyzer\nSuno Bridge · Album Art · Rights Mgmt"]
+
+        B["<b>studio.vrsa.app</b>\nNext.js 15 · TypeScript · Tone.js\nBrowser DAW — 16 tracks · 64 clips\nPiano Roll · Drum Sequencer · Waveform Editor\n1,300 lines of synth presets · MIDI I/O"]
+
+        C["<b>generate.vrsa.app</b>\nNext.js 16 · TypeScript · Zustand\n11 pages · 8 stores · ~120 components\n7 gen modes · AI Radio · AI DJ\nLoRA Training · WaveSurfer.js"]
+    end
+
+    Web --> B & C
+
+    subgraph AUTH ["Shared Auth Layer"]
+        D[("Supabase\n.vrsa.app cookies\nRLS · Edge Functions\nRPCs · Storage")]
+    end
+
+    A & B & C --> D
+
+    subgraph GPU ["Modal Backend — H100 GPU"]
+        E["Async Spawn/Poll · 600s Timeout\nPersistent Weight Volume"]
+        E --> F["<b>6 DiT Models</b>\nv1.5 · v1.5-stream · v1.5-craft\nv1.5-core · v1.5-shift3 · v1.5-shift1"]
+        E --> G["<b>3 LM Models</b>\npulse-nano 0.6B · pulse 1.7B\npulse-pro 4B"]
+    end
+
+    D --> E
+
+    subgraph LLM ["Multi-Provider LLM Routing"]
+        H["GPT · Claude · DeepSeek · Gemini\nGrok · Kimi K2 · MiniMax · Mistral"]
+    end
+
+    A --> H
+
+    subgraph MEDIA ["Media Generation"]
+        I["Flux 1.1 Pro · Flux 2\nSora via Azure OpenAI"]
+    end
+
+    A --> I
+
+    subgraph INFRA ["Infrastructure"]
+        J["107 API Endpoints · Vercel · Docker\nSentry · Honeybadger · Amplitude\nIntercom · Cloudflare Turnstile\nFingerprintJS · Crowdin i18n"]
+    end
+
+    style USER fill:transparent,stroke:#58A6FF,stroke-width:2px,color:#58A6FF
+    style APPS fill:transparent,stroke:#8B5CF6,stroke-width:2px,color:#8B5CF6
+    style AUTH fill:transparent,stroke:#3ECF8E,stroke-width:2px,color:#3ECF8E
+    style GPU fill:transparent,stroke:#F97316,stroke-width:2px,color:#F97316
+    style LLM fill:transparent,stroke:#EC4899,stroke-width:2px,color:#EC4899
+    style MEDIA fill:transparent,stroke:#EAB308,stroke-width:2px,color:#EAB308
+    style INFRA fill:transparent,stroke:#6B7280,stroke-width:2px,color:#6B7280
+```
+
+</details>  
+
 
 **VRSA v1.5 — AI Music Generation Engine:**
 
@@ -100,7 +169,11 @@ Supports **7 task types**: text to music, music to music, cover, repainting, ext
 
 <br>
 
-## [AI Audio Tools](https://github.com/theelderemo/ai-audio-tools)
+<p align="center">
+  <a href="https://github.com/theelderemo/ai-audio-tools">
+    <img src="assets/ai-audio-tools-banner.svg" alt="AI Audio Tools" width="100%">
+  </a>
+</p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Tools](https://img.shields.io/badge/tools%20listed-100%2B-blueviolet?style=flat)
@@ -115,7 +188,9 @@ A curated list of 100+ AI-powered audio tools across 16 categories: music creati
   <img src="assets/other-work-banner.svg" alt="Other Work & Contributions" width="100%">
 </p>
 
-## Google Colab
+<p align="center">
+    <img src="assets/colab-banner.svg" alt="Colab Scripts" width="100%">
+</p>
 
 **[HeartLib Script](https://github.com/theelderemo/HeartLib-Google-Colab)**
 
@@ -149,7 +224,11 @@ Plug-and-play Colab notebook for Wan 2.2 — an advanced image-to-video model �
 
 <br>
 
-## [CortexAI](https://github.com/theelderemo/cortexai)
+<p align="center">
+  <a href="https://github.com/theelderemo/cortexai">
+    <img src="assets/cortexai-banner.svg" alt="CortexAI" width="100%">
+  </a>
+</p>
 
 ![GitHub package.json dynamic](https://img.shields.io/github/package-json/version/theelderemo/cortexai)
 ![GitHub last commit](https://img.shields.io/github/last-commit/theelderemo/cortexai)
@@ -160,15 +239,21 @@ This was a proof of concept project for myself. Open-source AI-powered penetrati
 
 <br>
 
-## [Epstein Index](https://github.com/theelderemo/FULL_EPSTEIN_INDEX)  
-![GitHub Repo stars](https://img.shields.io/github/stars/theelderemo/FULL_EPSTEIN_INDEX)
+<p align="center">
+  <a href="https://github.com/theelderemo/FULL_EPSTEIN_INDEX">
+    <img src="assets/epstein-index-banner.svg" alt="Epstein Index" width="100%">
+  </a>
+</p>
 
-
-FULL_EPSTEIN_INDEX is a comprehensive, unified research archive aggregating public releases related to the Jeffrey Epstein estate and associated investigations. 
+A comprehensive, unified research archive aggregating public releases related to the Jeffrey Epstein estate and associated investigations. 
 
 <br>
 
-## [Epstein Estate Dataset + Gradio Analyzer](https://github.com/theelderemo/Epstein-files) 
+<p align="center">
+  <a href="https://github.com/theelderemo/Epstein-files">
+    <img src="assets/epstein-files-banner.svg" alt="Epstein Files" width="100%">
+  </a>
+</p>
 
 When the U.S. House Oversight Committee released 20,000+ pages of unstructured documents, the data was technically public but practically inaccessible. I built a forensic analysis tool to change that.
 
@@ -181,25 +266,35 @@ When the U.S. House Oversight Committee released 20,000+ pages of unstructured d
 
 <br>
 
-## [eDEX-UI Security Patch](https://github.com/theelderemo/Edex-UI-android)
+<p align="center">
+  <a href="https://github.com/theelderemo/eDEX-UI-security-patched">
+    <img src="assets/edex-ui-banner.svg" alt="Edex UI" width="100%">
+  </a>
+</p>
 
 ![Patched](https://img.shields.io/badge/Security_Patch-%23FF2D20.svg)  ![GitHub Repo stars](https://img.shields.io/github/stars/theelderemo/eDEX-UI-security-patched)
 
-
-
-The original `eDEX-UI` — a well-known sci-fi terminal emulator — was archived with an unresolved security vulnerability. I forked it, patched the flaw, modernized the codebase, removed all deprecated dependencies, and cut a clean release.
+The original `eDEX-UI` — a well-known sci-fi terminal emulator — was archived with an unresolved security vulnerability. I forked it, patched the flaw, modernized the codebase, removed all deprecated dependencies, and cut a clean release. 
 
 > All legacy code has been replaced, minor additional vulns remediated, and the dependency tree is fully up to date.
 
 <br>
 
-## [CorgiDB](https://github.com/roman-corgi/corgidb)
+<p align="center">
+  <a href="https://github.com/roman-corgi/corgidb">
+    <img src="assets/corgidb-banner.svg" alt="CorgiDB" width="100%">
+  </a>
+</p>
 
-Contributed a `get_optimal_sql_datatypes` helper function to automate efficient SQL datatype selection for pandas DataFrames — reducing manual overhead and ensuring optimal storage across schema generation workflows.
+Contributed a helper function to automate efficient SQL datatype selection for pandas DataFrames — reducing manual overhead and ensuring optimal storage across schema generation workflows.
 
 <br>
 
-## [Simple Chat](https://github.com/theelderemo/simple-chat-ui)
+<p align="center">
+  <a href="https://github.com/theelderemo/simple-chat-ui">
+    <img src="assets/simple-chat-banner.svg" alt="Simple Chat" width="100%">
+  </a>
+</p>
 
 Local AI chat workbench with multi-provider support (AWS Bedrock, OpenAI, Azure, Gemini) - Deno-powered server with browser-based UI  
 
