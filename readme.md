@@ -163,8 +163,8 @@ Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 G
 | **Multi-model routing** | GPT, Claude, DeepSeek, Gemini, Grok, Kimi K2, MiniMax, Mistral across OpenAI, Bedrock, OpenRouter, and Google APIs |
 | **Rights Management** | Proof-of-creation PDF certificate generator |
 | **MyMusic / Projects / AlbumWorkspace** | Full library, project, and album management |
-| **AdminPanel** | Platform administration, really just a view only style cms for me to see stats |
-| **StudioPass** | Subscription and billing management |
+| **Admin Panel** | Platform administration, really just a view only style cms for me to see stats |
+| **Studio Pass** | Subscription and billing management |
 | **Mobile** | Capacitor 8 Android build + full PWA support |
 
 #### **Infrastructure:**
