@@ -143,16 +143,50 @@ Custom cloud inference backend running **6 DiT plus 3 LM model variants** on H10
 | vrsa-pulse | LM 1.7B | Balanced LM |
 | vrsa-pulse-pro | LM 4B (default) | Full reasoning + CoT metadata |
 
-#### **7 task types:**
+<table>
+<tr>
+<td>
 
-| | | | | | | |
-|---|---|---|---|---|---|---|
-| Text to Music | Music to Music | Cover | Repainting | Extracting | Section by Section Build | Complete |
+| Output Formats |
+|---|
+| mp3 |
+| flac |
+| wav |
+| wav32 |
+| opus |
+| aac |
 
-#### **Output formats:**  
-mp3 · flac · wav · wav32 · opus · aac   
-#### **Generation surface:**    
-BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, latent shift/rescale, batch size up to 8
+</td>
+<td>
+
+| Generation Surface |
+|---|
+| BPM |
+| Key/Scale |
+| Time Signature |
+| Guidance Scale |
+| ODE/SDE Sampling |
+| CFG Interval |
+
+</td>
+<td>
+  
+| 7 Task Types | 
+|---|
+| Text 2 Music |
+| Music 2 Music |
+| Cover |
+| Repainting |
+| Extracting | 
+| Section by Section Build | 
+| Complete |
+
+</td>
+</td>
+</tr>
+</table>
+
+
 
 #### **30+ page modules in vrsa.app:**
 
@@ -170,9 +204,7 @@ BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, 
 | **Studio Pass** | Subscription and billing management |
 | **Mobile** | Capacitor 8 Android build + full PWA support |
 
-#### **Infrastructure:**
-
-| | |
+| Infrastructure | |
 |---|---|
 | **Auth** | Cross-subdomain cookies scoped to `.vrsa.app`, shared across all three apps |
 | **Compute** | Modal async generation pipeline, H100 GPU, 600s timeout, persistent weights volume |
