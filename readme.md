@@ -129,7 +129,8 @@ graph TB
   <path d="M0 12h470 M530 12h470" stroke="#30363D" stroke-width="1"/>
   <path d="M480 8v8 M490 4v16 M500 10v4 M510 6v12 M520 8v8" stroke="#8b949e" stroke-width="2.5" stroke-linecap="round"/>
 </svg>
-Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 GPUs, all served from a persistent weight volume with async spawn/poll architecture:
+
+Custom cloud inference backend running **6 DiT plus 3 LM model variants** on H100 GPUs, all served from a persistent weight volume with async spawn/poll architecture:
 
 | VRSA Name | Type | Description |
 |---|---|---|
@@ -148,8 +149,10 @@ Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 G
 |---|---|---|---|---|---|---|
 | Text to Music | Music to Music | Cover | Repainting | Extracting | Section by Section Build | Complete |
 
-**Output formats:** mp3 · flac · wav · wav32 · opus · aac
-**Generation surface:** BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, latent shift/rescale, batch size up to 8
+#### **Output formats:**  
+mp3 · flac · wav · wav32 · opus · aac   
+#### **Generation surface:**    
+BPM, key/scale, time signature, guidance scale, ODE/SDE sampling, CFG interval, latent shift/rescale, batch size up to 8
 
 #### **30+ page modules in vrsa.app:**
 
@@ -193,7 +196,8 @@ Custom cloud inference backend running **6 DiT + 3 LM model variants** on H100 G
   </a>
 </p>
 
-A curated list of 100+ AI-powered audio tools across 16 categories: music creation, voice cloning, stem separation, TTS, transcription, sound detection, and more. 
+#### A curated list of 100+ AI-powered audio tools across 16 categories:  
+music creation, voice cloning, stem separation, TTS, transcription, sound detection, and more. 
 
 <p align="center">
   <img src="assets/other-work-banner.svg" alt="Other Work & Contributions" width="100%">
