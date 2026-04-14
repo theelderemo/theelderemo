@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="50%" src="assets/theelderemo_block_font.svg" />
+  <img width="50%" src="assets/theelderemo.svg" />
   <img width="100%" src="https://capsule-render.vercel.app/api?type=blur&color=0:0d1117,20:150a2e,40:2e0a5c,55:5c006e,70:7a0040,85:600010,100:420808&height=200&animation=fadeIn&fontAlignY=36&descAlignY=60&descSize=18&descColor=8b949e" />
 </div>
 
