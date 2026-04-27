@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;display=swap');
+      .cp-main { font-family: 'Fira Code', monospace; font-size: 34px; font-weight: 700; fill: #c9d1d9; }
+      .cp-sub  { font-family: 'Fira Code', monospace; font-size: 15px; fill: #8b949e; }
+      .cp-blink { animation: blink 1s step-end infinite; fill: #cc0033; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .cp-scan { stroke: #1e0545; stroke-width: 3; opacity: 0.3; animation: scan 8s linear infinite; }
+      @keyframes scan {
+        0%   { transform: translateY(-20px); }
+        100% { transform: translateY(140px); }
+      }
+    </style>
+    <linearGradient id="cp-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cc0033" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7a0040" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="0" y1="0" x2="800" y2="0" class="cp-scan"/>
+  <line x1="0" y1="118" x2="800" y2="118" stroke="url(#cp-fade)" stroke-width="4"/>
+
+  <text x="788" y="72" font-family="Fira Code, Consolas, monospace" font-size="62" fill="#cc0033" opacity="0.05" text-anchor="end">∇</text>
+
+  <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" class="cp-main">The Convergence Problem</text>
+  <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle" class="cp-sub">interdisciplinary research · AI safety · threat modeling <tspan class="cp-blink">_</tspan></text>
+</svg>

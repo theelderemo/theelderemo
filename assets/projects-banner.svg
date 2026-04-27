@@ -25,5 +25,4 @@
   <line x1="0" y1="118" x2="800" y2="118" stroke="#4a008f" stroke-width="4"/>
   
   <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" class="text-main glitch">Projects</text>
-  <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" class="text-sub pulse">things I built to quiet the void</text>
 </svg>

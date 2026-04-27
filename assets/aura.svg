@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 80" width="100%">
+  <defs>
+    <linearGradient id="aura-g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="1.5" fill="url(#aura-g)"/>
+  <rect x="0" y="0" width="4" height="80" fill="#a855f7"/>
+  <text x="888" y="66" font-family="Fira Code, Consolas, monospace" font-size="42" fill="#a855f7" opacity="0.07" text-anchor="end">[ EOF ]</text>
+  <text x="20" y="42" font-family="Fira Code, Consolas, monospace" font-size="24" font-weight="700" fill="#e6edf3" letter-spacing="1.5">AURA</text>
+  <text x="20" y="62" font-family="Fira Code, Consolas, monospace" font-size="11" fill="#a855f7" letter-spacing="2.5">Archived Research · Deprecated Experiments</text>
+</svg>
