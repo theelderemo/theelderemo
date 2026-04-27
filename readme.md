@@ -22,7 +22,7 @@
   </a>
 </div>
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Army+Vet.+Cybersecurity+Student.;ML+%2B+Audio+%2B+Security+%2B+Datasets;AI+Safety+Research;chmod+000+/impostor_syndrome (jk);[REDACTED]+by+Executive+Order;SIPRnet+alumni+since+[CLASSIFIED]" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Army+Vet.+Cybersecurity+Student.;ML+%2B+Audio+%2B+Security+%2B+Datasets;AI+Safety+Research;chmod+000+/impostor_syndrome(jk);[REDACTED]+by+Executive+Order;SIPRnet+alumni+since+[CLASSIFIED]" alt="Typing SVG" />
 </div>
 <div align="center">
 
